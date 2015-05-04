@@ -1,5 +1,5 @@
 {
-  "name": "prepend",
+  "name": "append",
   "version": "0.0.0",
   "main": "append.js",
   "scripts": {
