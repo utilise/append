@@ -1,9 +1,9 @@
 var expect = require('chai').expect
-  , prepend = require('./')
+  , append = require('./')
 
-describe('prepend', function() {
-  it('should prepend value to datum', function() {
+describe('append', function() {
+  it('should append value to datum', function() {
     var a = ['lorem', 'ipsum']
-    expect(a.map(prepend('_'))).to.eql(['lorem_', 'ipsum_'])
+    expect(a.map(append('_'))).to.eql(['lorem_', 'ipsum_'])
   })
 })
